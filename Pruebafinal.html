@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Signo Zodiacal</title>
+        <script src="chinozodiaco.js"></script>
+    </head>
+       <body>   
+        <!-- Formulario Zodiaco -->     
+           <form  name="formulario">
+            <fieldset>
+                <legend>Signo Chino y Zodiacal</legend>
+                <p>
+            <label for="dia">Ingrese el dia:</label>
+               <input type="number" name="dia" max="31" min="1" id="1" step="" required="" placeholder="Día de nacimiento" maxlength="2"/>
+                </p>
+                <p>
+            <label for="mes">Ingrese el mes:</label>   
+            <input type="number" name="mes" max="12" min="1" id="2" step="" required="" placeholder="Mes de nacimiento" maxlength="2"/>           
+                </p>
+                      <!-- Formulario Chino -->
+                      <p>
+                        <label for="year">Ingrese el año:</label>
+                        <input type="number" name="year" id="3" required="" placeholder="Año de nacimiento" maxlength="4"/>
+                         </p>
+                        <img id="imagen1" src="Chino.png"  height="210" width="240" alt="Chino" />     
+                    <img id="imagen" src="Zodiaco.png"  height="200" width="210" />
+                    <input type="button" value="Calcular" onclick="cal();">
+            </fieldset>
+            </form> 
+       </body>
+</html>
+
+
+
